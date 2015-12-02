@@ -930,44 +930,5 @@
 
         </section>
 
-        <section>
-            <title>Other MBX Goodies</title>
-
-            <p>As long as we have your attention, this section demonstrates some other features that can be used in a MathBook XML project.</p>
-
-            <subsection>
-                <title>Sage cells</title>
-
-                <p>Sage is an open-source Computer Algebra System based on Python. It's the open-source counterpart to software like Mathematica, Maple, and MatLab. An MBX projcet can have Sage cells like the one below. They can be pre-programmed with some Sage commands, but you are free to execute whatever Sage commands you like.</p>
-
-                <sage>
-                    <input>plot(abs(x)^x, (-2, 2), figsize=6)</input>
-                    <output>Graphics object consisting of 1 graphics primitive</output>
-                </sage>
-
-            </subsection>
-
-            <subsection>
-                <title>GeoGebra applets</title>
-
-                <p>GeoGebra is free open source graphing software. You can construct an interactive demonstration and export it as either an HTML5- or Java-based page. Then you can include it in MBX.</p>
-
-            </subsection>
-
-            <subsection>
-                <title>Videos</title>
-
-                <p>Videos are somewhat interactive elements as well, in that you can pause, jump back, <etc/>.</p>
-
-                <figure>
-                    <video source="video/Henrietta.webm" />
-                    <caption>Henrietta being silly</caption>
-                </figure>
-
-
-            </subsection>
-
-        </section>
-
     </article>
 </mathbook>
